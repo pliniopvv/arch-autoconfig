@@ -29,7 +29,7 @@ setup_system() {
 # 2. Instalação de Apps Oficiais (Pacman)
 install_official_apps() {
     echo "==> Verificando aplicativos oficiais..."
-    local apps=(gimp inkscape putty kdenlive filezilla obs-studio ffmpeg neovim steam steam-native-runtime)
+    local apps=(gimp inkscape putty kdenlive filezilla obs-studio ffmpeg neovim steam steam-native-runtime alsa-utils noto-fonts-emoji)
     
     for app in "${apps[@]}"; do
         if pacman -Qi "$app" &> /dev/null; then
