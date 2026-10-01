@@ -51,7 +51,8 @@ install_aur_apps() {
     local aur_apps=(
         slack-desktop discord blender telegram-desktop postman 
         microsoft-edge-stable-bin onlyoffice-bin figma-linux-bin 
-        android-studio heroic-games-launcher-bin fvm
+        android-studio heroic-games-launcher-bin fvm javafx-scenebuilder
+        lightscreen
     )
 
     for app in "${aur_apps[@]}"; do
