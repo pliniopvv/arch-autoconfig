@@ -52,7 +52,7 @@ install_aur_apps() {
         slack-desktop discord blender telegram-desktop postman 
         microsoft-edge-stable-bin onlyoffice-bin figma-linux-bin 
         android-studio heroic-games-launcher-bin fvm javafx-scenebuilder
-        lightscreen xorg-xset
+        lightscreen xorg-xset feh
     )
 
     for app in "${aur_apps[@]}"; do
